@@ -51,7 +51,9 @@ function Post() {
         </div>
 
         <div className="mt-10 space-y-6 text-lg leading-8 text-slate-300">
-          <p>The full content of this blog post will be added here soon.</p>
+          {post.content.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
         </div>
       </article>
     </main>

@@ -7,6 +7,11 @@ const posts = [
     date: "Coming soon",
     readTime: "5 min read",
     slug: "my-journey-into-react",
+    content: [
+      "My journey into React started with learning the basics of JavaScript.",
+      "I am now exploring components, props, and state.",
+      "There is still a lot to learn, but every small step helps me understand React better.",
+    ],
   },
   {
     id: 2,
@@ -16,6 +21,11 @@ const posts = [
     date: "Coming soon",
     readTime: "4 min read",
     slug: "building-my-first-blog",
+    content: [
+      "Building my first blog is an exciting step in my frontend development journey.",
+      "I am using React, Vite, and Tailwind CSS to create the website.",
+      "This project helps me practice what I learn and understand how React applications work.",
+    ],
   },
 ];
 
